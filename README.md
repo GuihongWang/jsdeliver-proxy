@@ -7,6 +7,10 @@
 
 创建后在跳转的页面选择**快速编辑** 将[index.js](https://github.com/GuihongWang/jsdeliver-proxy/blob/main/index.js)这个链接里的js里的字符粘贴到worker的编辑器里
 
+
+除了jsdeilvr cdn 还提供 fastly gcore 还有cloudflare cdn提供 详细部署      查看`cdn提供商.js`文件来部署
+
+
 点击**保存并部署** 即可在全球部署![](https://file.marisa.ml/images/?/images/2022/05/21/y80XW3N8sj/01186AB7AD4DAE67D5D7EF16E99B3650.jpg) ~~并引起全球温室效应~~（bushi）
 
 最后在worker编辑器的右侧的发送按钮的左侧 输入    `你的worker地址/npm/yandex-metrica-watch/tag.js`       显示 绿灯 200 OK 即为正常
@@ -33,7 +37,7 @@ IPV4地址填前面最优ip 或者 1.1.1.1 然后按确定
 或者
 
 出故障时自动打开（继续）：
-免费的每日100,000次请求用完之后 会重新引导到fastly.jsdeliver.net
+免费的每日100,000次请求用完之后 会重新引导到cdn.jsdeliver.net
 
 
 # 注意
